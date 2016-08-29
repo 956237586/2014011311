@@ -1,1 +1,1 @@
-include ':HelloWorldActivity'
+include ':HelloWorldActivity', ':testmodule'
