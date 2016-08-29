@@ -1,7 +1,7 @@
 /**
  * created by hyl.
  */
-package cn.hylstudio.android.androidpractices;
+package cn.hylstudio.android.helloworld;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -13,7 +13,7 @@ public class HelloWorldActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hello_world);
+        setContentView(cn.hylstudio.android.helloworld.R.layout.activity_hello_world);
         Log.d(tag_test, "test logcat");
     }
 }

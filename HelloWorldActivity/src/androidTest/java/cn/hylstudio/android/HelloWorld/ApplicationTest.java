@@ -1,4 +1,4 @@
-package cn.hylstudio.android.androidpractices;
+package cn.hylstudio.android.helloworld;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
