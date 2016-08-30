@@ -1,5 +1,7 @@
 /**
  * created by hyl.
+ * 1：编程项目-[上机实践]在Android Studio中创建Hello World程序-具体内容
+ * 2：编程项目-[上机实践]学会使用Logcat调试程序-具体内容
  */
 package cn.hylstudio.android.helloworld;
 

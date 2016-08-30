@@ -25,7 +25,10 @@
         android:layout_marginTop="27dp"
         android:text="change text"
         android:textAllCaps="false" />
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_test"/>
     <CheckBox
         android:id="@+id/cb_1"
         android:layout_width="wrap_content"
@@ -49,5 +52,25 @@
         android:checked="false"
         android:onClick="customMethod"
         android:text="33333" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbtn_1"
+            android:text="11111111"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbtn_2"
+            android:text="22222222"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbtn_3"
+            android:text="33333333"/>
+    </RadioGroup>
 
 </LinearLayout>

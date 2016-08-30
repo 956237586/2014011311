@@ -8,18 +8,20 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ChangeText" />
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
-            <option value="$PROJECT_DIR$/changetext" />
-            <option value="$PROJECT_DIR$/listandadapter" />
+            <option value="$PROJECT_DIR$/ListAndAdapter" />
+            <option value="$PROJECT_DIR$/MenuAndDialog" />
             <option value="$PROJECT_DIR$/testmodule" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ChangeText" />
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
-            <option value="$PROJECT_DIR$/changetext" />
-            <option value="$PROJECT_DIR$/listandadapter" />
+            <option value="$PROJECT_DIR$/ListAndAdapter" />
+            <option value="$PROJECT_DIR$/MenuAndDialog" />
             <option value="$PROJECT_DIR$/testmodule" />
           </set>
         </option>

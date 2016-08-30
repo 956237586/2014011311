@@ -1,5 +1,8 @@
 /**
  * created by hyl
+ * 4：编程项目-[上机实践]学会使用ListView-具体内容
+ * 5：编程项目-[上机实践，选做]使用RecyclerView显示数据。-具体内容（没写
+ *
  * 2016.8.30
  */
 package cn.hylstudio.android.listandadapter;

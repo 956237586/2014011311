@@ -1,1 +1,1 @@
-include ':HelloWorldActivity', ':testmodule', ':changetext', ':listandadapter'
+include ':HelloWorldActivity', ':testmodule', ':ChangeText', ':ListAndAdapter', ':MenuAndDialog'
