@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/HelloWorldActivity/HelloWorldActivity.iml" filepath="$PROJECT_DIR$/HelloWorldActivity/HelloWorldActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/ListAndAdapter/ListAndAdapter.iml" filepath="$PROJECT_DIR$/ListAndAdapter/ListAndAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/MenuAndDialog/MenuAndDialog.iml" filepath="$PROJECT_DIR$/MenuAndDialog/MenuAndDialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWorldActivity/app.iml" filepath="$PROJECT_DIR$/HelloWorldActivity/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmodule/testmodule.iml" filepath="$PROJECT_DIR$/testmodule/testmodule.iml" />
     </modules>
   </component>
