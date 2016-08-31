@@ -13,6 +13,7 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(TAG, "onStart");
         setContentView(R.layout.activity_second);
         btn_return = (Button)findViewById(R.id.btn_return_first);
         btn_return.setOnClickListener(new View.OnClickListener() {
