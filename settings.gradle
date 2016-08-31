@@ -1,1 +1,1 @@
-include ':HelloWorldActivity', ':testmodule', ':ChangeText', ':ListAndAdapter', ':MenuAndDialog', ':AndroidLifecycle'
+include ':HelloWorldActivity', ':testmodule', ':ChangeText', ':ListAndAdapter', ':MenuAndDialog', ':AndroidLifecycle', ':TestFragment'
