@@ -69,7 +69,7 @@ public class DetailFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
         TextView tv_id = (TextView) view.findViewById(R.id.tv_id);
         TextView tv_content = (TextView) view.findViewById(R.id.tv_content);
-        Toast.makeText(view.getContext(), mParam1, Toast.LENGTH_SHORT).show();
+        // Toast.makeText(view.getContext(), mParam1, Toast.LENGTH_SHORT).show();
         tv_id.setText(mParam1);
         tv_content.setText(mParam2);
         return view;
