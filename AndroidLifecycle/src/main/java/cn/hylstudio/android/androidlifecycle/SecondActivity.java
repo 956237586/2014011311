@@ -1,36 +1,28 @@
-/**
- * created by hyl
- * 8：编程项目-[上机实践]Activity生命周期-具体内容
- * 9：编程项目-[上机实践]生成并调用第二个Activity-具体内容
- * 2016.8.31
- */
 package cn.hylstudio.android.androidlifecycle;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-    public static final String TAG = "lifecycle first";
-    private Button btn_startSecond;
+public class SecondActivity extends AppCompatActivity {
+    public static final String TAG = "lifecycle second";
+    private Button btn_return;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Log.d(TAG, "onCreate");
-        btn_startSecond = (Button) findViewById(R.id.btn_startSecond);
-        btn_startSecond.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_second);
+        btn_return = (Button)findViewById(R.id.btn_return_first);
+        btn_return.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
     }
+
 
     @Override
     protected void onStart() {

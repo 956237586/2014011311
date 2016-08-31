@@ -7,17 +7,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cn.hylstudio.android.androidlifecycle.MainActivity"
+    tools:context="cn.hylstudio.android.androidlifecycle.SecondActivity"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="这是第一个界面" />
-
+        android:text="这是第二个界面"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
     <Button
-        android:id="@+id/btn_startSecond"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="点这里跳转到第二个界面"/>
+        android:id="@+id/btn_return_first"
+        android:text="点这里回到第一个界面"/>
 </LinearLayout>
