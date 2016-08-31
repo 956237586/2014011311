@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AndroidLifecycle" />
             <option value="$PROJECT_DIR$/ChangeText" />
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
             <option value="$PROJECT_DIR$/ListAndAdapter" />
@@ -18,6 +19,7 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AndroidLifecycle" />
             <option value="$PROJECT_DIR$/ChangeText" />
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
             <option value="$PROJECT_DIR$/ListAndAdapter" />

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidLifecycle/AndroidLifecycle.iml" filepath="$PROJECT_DIR$/AndroidLifecycle/AndroidLifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidPractices.iml" filepath="$PROJECT_DIR$/AndroidPractices.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChangeText/ChangeText.iml" filepath="$PROJECT_DIR$/ChangeText/ChangeText.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorldActivity/HelloWorldActivity.iml" filepath="$PROJECT_DIR$/HelloWorldActivity/HelloWorldActivity.iml" />
