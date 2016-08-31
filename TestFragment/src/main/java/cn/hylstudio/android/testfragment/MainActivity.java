@@ -1,3 +1,9 @@
+/**
+ * create by hyl
+ * 12：编程项目-[上机实践]掌握Fragment，练习左右分栏-具体内容
+ * 13：编程项目-[上机实践]横屏和竖屏-具体内容
+ * 2016.8.31
+ */
 package cn.hylstudio.android.testfragment;
 
 
