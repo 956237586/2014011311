@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/ListAndAdapter/ListAndAdapter.iml" filepath="$PROJECT_DIR$/ListAndAdapter/ListAndAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/MenuAndDialog/MenuAndDialog.iml" filepath="$PROJECT_DIR$/MenuAndDialog/MenuAndDialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestFragment/TestFragment.iml" filepath="$PROJECT_DIR$/TestFragment/TestFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestIntent/TestIntent.iml" filepath="$PROJECT_DIR$/TestIntent/TestIntent.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmodule/testmodule.iml" filepath="$PROJECT_DIR$/testmodule/testmodule.iml" />
     </modules>
   </component>
