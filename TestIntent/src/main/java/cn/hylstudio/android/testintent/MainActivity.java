@@ -1,5 +1,9 @@
 /**
- *
+ * created by hyl
+ * 14：编程项目-[上机实践]使用Intent隐式启动-具体内容
+ * 15：编程项目-[上机实践]使用Intent拨打电话-具体内容
+ * 16：编程项目-[上机实践]进一步熟悉Intent Filter-具体内容
+ * 2016.9.1
  */
 
 package cn.hylstudio.android.testintent;
@@ -24,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn_startScond = (Button) findViewById(R.id.btn_startSecond);
-        btn_startScond.setOnClickListener(new View.OnClickListener() {
+        Button btn_startSecond = (Button) findViewById(R.id.btn_startSecond);
+        btn_startSecond.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
@@ -40,22 +44,33 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-
                     if (checkSelfPermission("android.permission.CALL_PHONE") !=
                             PackageManager.PERMISSION_GRANTED) {
                         Toast.makeText(MainActivity.this, "缺少打电话权限", Toast.LENGTH_SHORT).show();
                         return;
                     }
                 }
-                String phonenumber = "13800138000";
-                String encodedPhonenumber = null;
+                String phoneNumber = "10010";
+                String encodedPhoneNumber = null;
                 try {
-                    encodedPhonenumber = URLEncoder.encode(phonenumber, "UTF-8");
+                    encodedPhoneNumber = URLEncoder.encode(phoneNumber, "UTF-8");
                 } catch (UnsupportedEncodingException e) {
                     e.printStackTrace();
                 }
-                startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + encodedPhonenumber)));
+                startActivity(new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + encodedPhoneNumber)));
             }
         });
+
+        Button btn_startThird = (Button) findViewById(R.id.btn_startThird);
+        btn_startThird.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("schemodemo://edu.bistu/path"));
+                startActivity(intent);
+            }
+        });
+
+
     }
 }

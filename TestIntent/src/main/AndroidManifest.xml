@@ -24,6 +24,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".ThirdActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="edu.bistu"
+                    android:scheme="schemodemo" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
