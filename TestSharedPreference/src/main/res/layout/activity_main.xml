@@ -14,7 +14,7 @@
         android:id="@+id/text_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="666666666666" />
+        android:text="HuangYongliang 2014011311" />
 
     <Button
         android:id="@+id/btn_read"
@@ -40,4 +40,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="write file" />
+
+    <Button
+        android:id="@+id/btn_read_file_from_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read file from sd card" />
+
+    <Button
+        android:id="@+id/btn_write_file_to_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write file to sd card" />
 </LinearLayout>
