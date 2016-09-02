@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
             <option value="$PROJECT_DIR$/ListAndAdapter" />
             <option value="$PROJECT_DIR$/MenuAndDialog" />
+            <option value="$PROJECT_DIR$/TestDatabase" />
             <option value="$PROJECT_DIR$/TestFragment" />
             <option value="$PROJECT_DIR$/TestIntent" />
             <option value="$PROJECT_DIR$/TestSharedPreference" />
@@ -27,6 +28,7 @@
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
             <option value="$PROJECT_DIR$/ListAndAdapter" />
             <option value="$PROJECT_DIR$/MenuAndDialog" />
+            <option value="$PROJECT_DIR$/TestDatabase" />
             <option value="$PROJECT_DIR$/TestFragment" />
             <option value="$PROJECT_DIR$/TestIntent" />
             <option value="$PROJECT_DIR$/TestSharedPreference" />

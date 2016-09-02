@@ -1,5 +1,8 @@
 /**
  * created by HYL
+ * 17：编程项目-[上机实践]SharedPreferences-具体内容
+ * 18：编程项目-[上机实践]内部存储文件操作-具体内容
+ * 19：编程项目-[上机实践]外部存储文件操作-具体内容
  * 2016.9.2
  */
 package cn.hylstudio.android.testsharedpreference;
