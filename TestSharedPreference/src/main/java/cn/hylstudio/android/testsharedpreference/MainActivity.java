@@ -13,8 +13,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
 public class MainActivity extends AppCompatActivity {
     private SharedPreferences s;
+    public static final String FILE_NAME = "testfile";
     public static final String KEY_NAME = "name";
     public static final String KEY_TEST = "test";
 
@@ -45,6 +51,42 @@ public class MainActivity extends AppCompatActivity {
                 e.putString(KEY_TEST, t.getText() + "");
                 e.apply();
                 e.commit();
+            }
+        });
+
+
+        Button btn_readFile = (Button) findViewById(R.id.btn_read_file);
+        Button btn_writeFile = (Button) findViewById(R.id.btn_write_file);
+        btn_readFile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    FileInputStream fis = openFileInput(FILE_NAME);
+                    byte[] b = new byte[50];
+                    fis.read(b);
+                    fis.close();
+                    Toast.makeText(MainActivity.this, new String(b), Toast.LENGTH_SHORT).show();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        btn_writeFile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    FileOutputStream fos = openFileOutput(FILE_NAME, MODE_ENABLE_WRITE_AHEAD_LOGGING);
+                    String data = "hyl 2014011311";
+                    fos.write(data.getBytes());
+                    fos.flush();
+                    fos.close();
+                } catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         });
     }

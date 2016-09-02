@@ -27,4 +27,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="write" />
+
+
+    <Button
+        android:id="@+id/btn_read_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read file" />
+
+    <Button
+        android:id="@+id/btn_write_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="write file" />
 </LinearLayout>
