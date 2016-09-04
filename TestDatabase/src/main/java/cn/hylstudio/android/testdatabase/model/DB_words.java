@@ -1,4 +1,4 @@
-package cn.hylstudio.android.testdatabase.models;
+package cn.hylstudio.android.testdatabase.model;
 
 import android.provider.BaseColumns;
 

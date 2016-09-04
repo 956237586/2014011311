@@ -1,16 +1,19 @@
-package cn.hylstudio.android.testdatabase;
+package cn.hylstudio.android.testdatabase.daoimpl;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import cn.hylstudio.android.testdatabase.models.DB_words;
+import cn.hylstudio.android.testdatabase.dao.WordDao;
+import cn.hylstudio.android.testdatabase.model.DB_words;
+import cn.hylstudio.android.testdatabase.model.Word;
 
 /**
  * Created by HYL on 2016/9/2.
  */
 public class WordsDBHelper extends SQLiteOpenHelper {
+
     public static final String DATABASE_NAME = "wordsdb";
     public static final int DATABASE_VERSION = 1;
     public static final String SQL_CREATE_DATABASE = "CREATE TABLE " +
@@ -22,6 +25,7 @@ public class WordsDBHelper extends SQLiteOpenHelper {
 
     private final static String SQL_DELETE_DATABASE =
             "DROP TABLE IF EXISTS " + DB_words.T_word.TABLE_NAME;
+    private SQLiteDatabase db;
 
     public WordsDBHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -38,4 +42,6 @@ public class WordsDBHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(SQL_DELETE_DATABASE);
         onCreate(sqLiteDatabase);
     }
+
+
 }
