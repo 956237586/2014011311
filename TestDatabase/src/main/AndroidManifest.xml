@@ -16,6 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.WordDetailActivity" />
+
+        <provider
+            android:name=".WordContentProvider"
+            android:authorities="testdatabase.android.hylstudio.cn"
+            android:enabled="true"
+            android:exported="true"></provider>
     </application>
 
 </manifest>
