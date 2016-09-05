@@ -64,10 +64,16 @@
 
 21：编程项目-[上机实践]ContentProvider-具体内容  
 
-**TestContactContentProvider **
+[x]  2016/9/5
+**TestContactContentProvider**
 
 22：编程项目-访问“联系人”信息-具体内容  
 23：编程项目-使用ContentObserver-具体内容
+
+**TestService**
+
+24：编程项目-[上机实践]使用startService启动服务-具体内容  
+25：编程项目-[上机实践]使用bindService启动服务-具体内容
 
 hyl 
 
