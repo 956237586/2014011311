@@ -60,6 +60,14 @@
 20：编程项目-[上机实践]SQLite数据库使用-具体内容  
 21：编程项目-[上机实践]ContentProvider-具体内容  
 
+**TestContentProvider**
+
+21：编程项目-[上机实践]ContentProvider-具体内容  
+
+**TestContactContentProvider **
+
+22：编程项目-访问“联系人”信息-具体内容  
+23：编程项目-使用ContentObserver-具体内容
 
 hyl 
 
