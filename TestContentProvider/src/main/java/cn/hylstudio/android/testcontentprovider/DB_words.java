@@ -1,4 +1,4 @@
-package cn.hylstudio.android.testdatabase.model;
+package cn.hylstudio.android.testcontentprovider;
 
 import android.net.Uri;
 import android.provider.BaseColumns;

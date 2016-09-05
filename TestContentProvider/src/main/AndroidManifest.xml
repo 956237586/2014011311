@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cn.hylstudio.android.testdatabase">
+    package="cn.hylstudio.android.testcontentprovider">
 
     <application
         android:allowBackup="true"
@@ -8,20 +8,13 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.WordDetailActivity" />
-
-        <provider
-            android:name=".WordContentProvider"
-            android:authorities="cn.hylstudio.android.testdatabase"
-            android:enabled="true"
-            android:exported="true" />
     </application>
 
 </manifest>
