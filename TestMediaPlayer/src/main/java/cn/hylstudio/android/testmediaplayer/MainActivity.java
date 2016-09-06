@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                     btn_pause.setText("播放");
                     mediaPlayer.pause();
                 } else {
-                    btn_pause.setText("Pause");
+                    btn_pause.setText("暂停");
                     mediaPlayer.start();
                 }
 
