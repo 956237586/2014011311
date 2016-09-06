@@ -11,6 +11,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 /**
+ * 26：编程项目-[上机实践]使用Handler处理消息-具体内容
  * created by hyl on 2016/9/6
  */
 public class MainActivity extends AppCompatActivity {

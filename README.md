@@ -78,7 +78,11 @@
 
 **TestHandler**
 
+26：编程项目-[上机实践]使用Handler处理消息-具体内容
+
 **TestBroadcastReceiver**
+
+27：编程项目-[上机实践]广播-具体内容
 
 
 hyl 

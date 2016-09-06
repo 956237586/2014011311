@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+/**
+ * 27：编程项目-[上机实践]广播-具体内容
+ * created by hyl on 2016/9/6
+ */
 public class MainActivity extends AppCompatActivity {
     private Button btn_broadcast;
     private MyReceiver receiver;
