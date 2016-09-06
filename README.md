@@ -76,6 +76,11 @@
 24：编程项目-[上机实践]使用startService启动服务-具体内容  
 25：编程项目-[上机实践]使用bindService启动服务-具体内容
 
+**TestHandler**
+
+**TestBroadcastReceiver**
+
+
 hyl 
 
 2016.9.5

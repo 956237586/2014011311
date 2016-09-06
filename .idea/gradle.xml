@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
             <option value="$PROJECT_DIR$/ListAndAdapter" />
             <option value="$PROJECT_DIR$/MenuAndDialog" />
+            <option value="$PROJECT_DIR$/TestBroadcastReceiver" />
             <option value="$PROJECT_DIR$/TestContactContentProvider" />
             <option value="$PROJECT_DIR$/TestContentProvider" />
             <option value="$PROJECT_DIR$/TestDatabase" />
@@ -32,6 +33,7 @@
             <option value="$PROJECT_DIR$/HelloWorldActivity" />
             <option value="$PROJECT_DIR$/ListAndAdapter" />
             <option value="$PROJECT_DIR$/MenuAndDialog" />
+            <option value="$PROJECT_DIR$/TestBroadcastReceiver" />
             <option value="$PROJECT_DIR$/TestContactContentProvider" />
             <option value="$PROJECT_DIR$/TestContentProvider" />
             <option value="$PROJECT_DIR$/TestDatabase" />
