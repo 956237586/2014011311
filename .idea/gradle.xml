@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/TestContentProvider" />
             <option value="$PROJECT_DIR$/TestDatabase" />
             <option value="$PROJECT_DIR$/TestFragment" />
+            <option value="$PROJECT_DIR$/TestHandler" />
             <option value="$PROJECT_DIR$/TestIntent" />
             <option value="$PROJECT_DIR$/TestService" />
             <option value="$PROJECT_DIR$/TestSharedPreference" />
@@ -35,6 +36,7 @@
             <option value="$PROJECT_DIR$/TestContentProvider" />
             <option value="$PROJECT_DIR$/TestDatabase" />
             <option value="$PROJECT_DIR$/TestFragment" />
+            <option value="$PROJECT_DIR$/TestHandler" />
             <option value="$PROJECT_DIR$/TestIntent" />
             <option value="$PROJECT_DIR$/TestService" />
             <option value="$PROJECT_DIR$/TestSharedPreference" />
