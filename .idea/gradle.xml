@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/TestMediaPlayer" />
             <option value="$PROJECT_DIR$/TestService" />
             <option value="$PROJECT_DIR$/TestSharedPreference" />
+            <option value="$PROJECT_DIR$/TestView" />
             <option value="$PROJECT_DIR$/testmodule" />
           </set>
         </option>
@@ -44,6 +45,7 @@
             <option value="$PROJECT_DIR$/TestMediaPlayer" />
             <option value="$PROJECT_DIR$/TestService" />
             <option value="$PROJECT_DIR$/TestSharedPreference" />
+            <option value="$PROJECT_DIR$/TestView" />
             <option value="$PROJECT_DIR$/testmodule" />
           </set>
         </option>
