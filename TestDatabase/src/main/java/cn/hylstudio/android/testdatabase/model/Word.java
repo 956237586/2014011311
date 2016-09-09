@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by HYL on 2016/9/4.
  */
-public class Word implements Serializable{
+public class Word implements Serializable {
     private int id;
     private String word;
     private String meaning;

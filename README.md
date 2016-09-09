@@ -84,14 +84,16 @@
 
 27：编程项目-[上机实践]广播-具体内容
 
-**TestMediaPlayer**
+**TestMediaPlayer**  
+
 28：编程项目-[上机实践]MediaPlayer-具体内容
+ 
+**TestCamera**  
 
-
-**TestCamera**
 29：编程项目-[上机实践，选做]拍照-具体内容
 
-**TestView**
+**TestView**  
+
 30：编程项目-[上机实践]简单图形绘制-具体内容
 
 
